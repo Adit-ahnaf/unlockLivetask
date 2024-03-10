@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+.swiper {
+  width: 600px;
+  /* height: 600px; */
+}
+
+.swiper-slide {
+  width: 250px !important;
+}
+
+@layer base {
+  @font-face {
+    font-family: "bakilda";
+    src: url("./assets/Fonts/Bakilda/bakilda-histori.ttf") format("ttf");
+  }
+
+  @font-face {
+    font-family: "value-medium";
+    src: url("./assets/Fonts/Value Sans Pro/ValueSansPro-Medium.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "abril-bold";
+    src: url("./assets/Fonts/Abril/Abril_Display_Bold.otf") format("otf");
+  }
+}
