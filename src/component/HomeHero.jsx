@@ -6,7 +6,7 @@ export default function HomeHero(){
     return (
         <div class="relative">
         <div
-          class="before:-z-[1] before:absolute before:content-[''] before:bg-Leaf before:h-[340px] sm:before:h-[500px] before:w-[340px] sm:before:w-[435px] before:bg-cover before:bg-no-repeat"
+          class={`before:-z-[1] before:absolute before:content-[''] before:bg-[url('./assets/icons/Leaf.svg')] before:h-[340px] sm:before:h-[500px] before:w-[340px] sm:before:w-[435px] before:bg-cover before:bg-no-repeat`}
         ></div>
         <div
           class="hidden sm:block before:-z-[1] before:bottom-[-126px] before:right-0 before:absolute h-full w-full before:content-[''] before:bg-LeafBottom before:h-[500px] before:w-[435px] before:bg-contain before:bg-no-repeat"
