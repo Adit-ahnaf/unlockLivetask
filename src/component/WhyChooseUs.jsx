@@ -4,7 +4,7 @@ export default function WhyChooseUs() {
   return (
     <div class="relative mt-8">
       <img
-        class="before:right-0 before:top-0 before:-z-[1] before:absolute before:content-[''] before:bg-BiscutWhite before:h-[340px] sm:before:h-[200px] before:w-[340px] sm:before:w-[200px] before:bg-cover before:bg-no-repeat"
+        class="before:right-0 before:top-0 before:-z-[1] before:absolute before:content-[''] before:bg-[url('./assets/icons/biscutwithtea.svg')] before:h-[340px] sm:before:h-[200px] before:w-[340px] sm:before:w-[200px] before:bg-cover before:bg-no-repeat"
         src=""
         alt=""
       />

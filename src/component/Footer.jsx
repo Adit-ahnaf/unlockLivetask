@@ -4,7 +4,7 @@ import LinkdIn from '../assets/icons/linkdin.svg';
 import Twitter from '../assets/icons/twit.svg';
 export default function Footer() {
   return (
-    <div class="bg-FooterBg bg-cover bg-no-repeat mt-6">
+    <div class="bg-[url('./assets/images/footerbg.png')] bg-cover bg-no-repeat mt-6">
       <div class="max-w-[80%] m-auto py-6 pl-0 scrn-900:pl-[95px] flex flex-col gap-5 sm:flex-row items-center justify-between">
         <img src={FooterLogo} alt="" />
         <div class="text-[14px] sm:text-[16px] flex items-center gap-3">
